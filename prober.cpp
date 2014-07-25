@@ -148,7 +148,7 @@ void IceProber::onStateChanged(PPSession *session) {
             }
             break; 
         case cricket::BaseSession::STATE_INPROGRESS:
-            //std::cout << "Session is established!" << std::endl;
+
             SignalPrintString( "Session is established!" );
             break; 
         

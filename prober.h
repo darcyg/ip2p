@@ -67,20 +67,20 @@ protected:
     void setupTarget();
 
 private:
-    PPSession *session_;
-    Peer *peer_;
+    PPSession *session_;	//the session that manages p2p connection establishment.
+    Peer *peer_;	//represent my local peer.
    
     cricket::Transport*             targetTransport_;
-    cricket::P2PTransportChannel*   targetChannel_;
+    cricket::P2PTransportChannel*   targetChannel_;	
 
-    std::ofstream*              output_;
-    cricket::SocketMonitor*     monitor_;
+    std::ofstream*              output_;	// used for printing socket monitor data output information.
+    cricket::SocketMonitor*     monitor_;	//
 
     bool remote_online_;
-    std::string content_name_;
-    std::string channel_name_;
-    std::string my_name_;
-    std::string remote_name_;
+    std::string content_name_;	//used for session initiates.
+    std::string channel_name_;	//P2PTransportChannel channel name, it used as the ID in all channels.
+    std::string my_name_;	//local peer name.
+    std::string remote_name_;	//remote peer name.
 
     // prebuild resource for ppsession 
     talk_base::BasicNetworkManager *network_manager_;
