@@ -49,7 +49,7 @@
 namespace talk_base {
 
 ThreadManager* ThreadManager::Instance() {
-  LIBJINGLE_DEFINE_STATIC_LOCAL(ThreadManager, thread_manager, ());
+  LIBJINGLE_DEFINE_STATIC_LOCAL(ThreadManager, thread_manager, ());	//guarantee just one instance of ThreadManager.
   return &thread_manager;
 }
 
@@ -210,7 +210,7 @@ bool Thread::Start(Runnable* runnable) {
 
   // Make sure that ThreadManager is created on the main thread before
   // we start a new thread.
-  ThreadManager::Instance();
+  ThreadManager::Instance();	//guarantee ThreadManager to hold the current thread maybe main thread at first .
 
   ThreadInit* init = new ThreadInit;
   init->thread = this;
