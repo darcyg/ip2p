@@ -17,12 +17,14 @@ LIB_OBJS = ${LIB_SRCS:%.cc=$(OBJS_DIR)/%.o}
 APP_SRCS =
 include $(MAKE_DIR)/app_build.mk
 #APP_OBJS = ${APP_SRCS:.cpp=.o}
-APP_OBJS = ${APP_SRCS:%.cpp=$(OBJS_DIR)/%.o}
+APP_OBJS = ${APP_SRCS:%.cc=$(OBJS_DIR)/%.o}
 
 LIB = $(OBJS_DIR)/libjingle.a
 TARGET = ProbeICE
+RELAYSERVER_APP = relayserver 
+STUNSERVER_APP = stunserver
 
-all: $(TARGET)
+all: $(TARGET) $(RELAYSERVER_APP) $(STUNSERVER_APP)
 
 $(OBJS_DIR)/%.o : %.c
 	@mkdir -p $(@D)
@@ -41,6 +43,12 @@ $(LIB): $(LIB_OBJS)
 
 $(TARGET): $(LIB) $(APP_OBJS)
 	$(CC) -o $@ $(APP_OBJS) $(LIB) $(LDFLAGS)
+	
+$(RELAYSERVER_APP): $(LIB)
+	$(CC) -o $@ $(OBJS_DIR)/deps/libjingle/talk/p2p/base/relayserver_main.o $(LIB) $(LDFLAGS)
+
+$(STUNSERVER_APP): $(LIB)
+	$(CC) -o $@ $(OBJS_DIR)/deps/libjingle/talk/p2p/base/stunserver_main.o $(LIB) $(LDFLAGS)
 
 .PHONY: clean all
 
@@ -48,3 +56,5 @@ clean:
 	rm -f $(TARGET)
 	rm -f $(LIB)
 	rm -rf $(OBJS_DIR)
+	rm -rf $(STUNSERVER_APP)
+	rm -rf $(RELAYSERVER_APP)

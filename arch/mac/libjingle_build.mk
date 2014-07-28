@@ -82,7 +82,7 @@ LIB_SRCS = \
 	deps/libjingle/talk/p2p/base/pseudotcp.cc\
 	deps/libjingle/talk/p2p/base/relayport.cc\
 	deps/libjingle/talk/p2p/base/relayserver.cc\
-    deps/libjingle/talk/p2p/base/relayserver_main.cc\
+	deps/libjingle/talk/p2p/base/relayserver_main.cc\
 	deps/libjingle/talk/p2p/base/rawtransport.cc\
 	deps/libjingle/talk/p2p/base/rawtransportchannel.cc\
 	deps/libjingle/talk/p2p/base/session.cc\
@@ -93,7 +93,7 @@ LIB_SRCS = \
 	deps/libjingle/talk/p2p/base/stunport.cc\
 	deps/libjingle/talk/p2p/base/stunrequest.cc\
 	deps/libjingle/talk/p2p/base/stunserver.cc\
-    deps/libjingle/talk/p2p/base/stunserver_main.cc\
+	deps/libjingle/talk/p2p/base/stunserver_main.cc\
 	deps/libjingle/talk/p2p/base/tcpport.cc\
 	deps/libjingle/talk/p2p/base/transport.cc\
 	deps/libjingle/talk/p2p/base/transportchannel.cc\

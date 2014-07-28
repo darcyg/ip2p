@@ -53,3 +53,5 @@ clean:
 	rm -f $(TARGET)
 	rm -f $(LIB)
 	rm -rf $(OBJS_DIR)
+	rm -rf $(STUNSERVER_APP)
+	rm -rf $(RELAYSERVER_APP)

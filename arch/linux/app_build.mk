@@ -1,5 +1,4 @@
 APP_SRCS = src/peer/main.cc \
            src/peer/ppsession.cc\
            src/peer/prober.cc\
-           src/peer/peer.cc\
-           src/peer/PthTest.cc
+           src/peer/peer.cc
