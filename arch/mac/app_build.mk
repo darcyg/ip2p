@@ -1,4 +1,4 @@
-APP_SRCS = src/peer/main.cpp \
-           src/peer/ppsession.cpp\
-           src/peer/prober.cpp\
-           src/peer/peer.cpp
+APP_SRCS = src/peer/main.cc \
+           src/peer/ppsession.cc\
+           src/peer/prober.cc\
+           src/peer/peer.cc

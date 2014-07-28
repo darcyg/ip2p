@@ -13,7 +13,7 @@ LIB_OBJS = ${LIB_SRCS:%.cc=$(OBJS_DIR)/%.o}
 
 APP_SRCS =
 include $(MAKE_DIR)/app_build.mk
-APP_OBJS = ${APP_SRCS:%.cpp=$(OBJS_DIR)/%.o}
+APP_OBJS = ${APP_SRCS:%.cc=$(OBJS_DIR)/%.o}
 
 LIB = $(OBJS_DIR)/libjingle.a
 TARGET = probeICE
