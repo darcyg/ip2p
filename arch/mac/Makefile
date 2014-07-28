@@ -21,8 +21,8 @@ TARGET = probeICE
 RELAYSERVER_APP = relayserver 
 STUNSERVER_APP = stunserver
 
-#$(RELAYSERVER_APP) $(STUNSERVER_APP)
-all: $(TARGET) 
+all: $(TARGET) $(RELAYSERVER_APP) $(STUNSERVER_APP)
+ 
 
 $(OBJS_DIR)/%.o : %.c
 	@mkdir -p $(@D)
@@ -43,10 +43,10 @@ $(TARGET): $(LIB) $(APP_OBJS)
 	$(CC) -o $@ $(APP_OBJS) $(LIB) $(LDFLAGS)
 	
 $(RELAYSERVER_APP): $(LIB)
-	$(CC) -o $@ $(TALK_INC_DIR)/p2p/base/relayserver_main.cc $(LIB) $(LDFLAGS)
+	$(CC) -o $@ $(OBJS_DIR)/deps/libjingle/talk/p2p/base/relayserver_main.o $(LIB) $(LDFLAGS)
 
-$(STUNSERVER_APP):	$(LIB)
-	$(CC) -o $@ $(TALK_INC_DIR)/p2p/base/stunserver_main.cc $(LIB) $(LDFLAGS)
+$(STUNSERVER_APP): $(LIB)
+	$(CC) -o $@ $(OBJS_DIR)/deps/libjingle/talk/p2p/base/stunserver_main.o $(LIB) $(LDFLAGS)
 .PHONY: clean all
 
 clean:
