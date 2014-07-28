@@ -16,9 +16,13 @@ include $(MAKE_DIR)/app_build.mk
 APP_OBJS = ${APP_SRCS:%.cc=$(OBJS_DIR)/%.o}
 
 LIB = $(OBJS_DIR)/libjingle.a
-TARGET = probeICE
 
-all: $(TARGET)
+TARGET = probeICE
+RELAYSERVER_APP = relayserver 
+STUNSERVER_APP = stunserver
+
+#$(RELAYSERVER_APP) $(STUNSERVER_APP)
+all: $(TARGET) 
 
 $(OBJS_DIR)/%.o : %.c
 	@mkdir -p $(@D)
@@ -37,7 +41,12 @@ $(LIB): $(LIB_OBJS)
 
 $(TARGET): $(LIB) $(APP_OBJS)
 	$(CC) -o $@ $(APP_OBJS) $(LIB) $(LDFLAGS)
+	
+$(RELAYSERVER_APP): $(LIB)
+	$(CC) -o $@ $(TALK_INC_DIR)/p2p/base/relayserver_main.cc $(LIB) $(LDFLAGS)
 
+$(STUNSERVER_APP):	$(LIB)
+	$(CC) -o $@ $(TALK_INC_DIR)/p2p/base/stunserver_main.cc $(LIB) $(LDFLAGS)
 .PHONY: clean all
 
 clean:
