@@ -1,5 +1,5 @@
 {
-    "name": "probeICE-server",
+    "name": "probeICE-sessionserver",
     "version": "0.1",
     "private": true,
     "scripts": {

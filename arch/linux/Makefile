@@ -20,7 +20,7 @@ include $(MAKE_DIR)/app_build.mk
 APP_OBJS = ${APP_SRCS:%.cc=$(OBJS_DIR)/%.o}
 
 LIB = $(OBJS_DIR)/libjingle.a
-TARGET = ProbeICE
+TARGET = probeICE
 RELAYSERVER_APP = relayserver 
 STUNSERVER_APP = stunserver
 

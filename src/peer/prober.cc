@@ -66,15 +66,15 @@ void IceProber::Login(const std::string &server,
     network_manager_ = new talk_base::BasicNetworkManager();
     //talk_base::SocketAddress address_stun("stun.l.google.com", 19302);
     talk_base::SocketAddress address_stun("stunserver.org", 3478);
+    talk_base::SocketAddress address_relay_udp("112.124.37.110", 15032);
     talk_base::SocketAddress address_nil;
     port_allocator_ = 
         new cricket::BasicPortAllocator(network_manager_,
                                         address_stun,            //stun
-                                        address_nil,            //relay:udp
+                                        address_relay_udp,            //relay:udp
                                         address_nil,            //relay:tcp
                                         address_nil);           //relay:ssl
-    port_allocator_->set_flags(cricket::PORTALLOCATOR_DISABLE_TCP 
-                              + cricket::PORTALLOCATOR_DISABLE_RELAY);
+    port_allocator_->set_flags(cricket::PORTALLOCATOR_DISABLE_TCP + PORTALLOCATOR_ENABLE_BUNDLE);
 
     peer_ =  new Peer(server, 1979, my_name_, signal_thread_);
     peer_->SignalOnline.connect(this, &IceProber::onOnLine);
