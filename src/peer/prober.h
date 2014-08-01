@@ -28,7 +28,8 @@ public:
     ~IceProber();
     
     virtual void OnMessage(talk_base::Message *msg);
-    void Login(const std::string &server, 
+    void Login(const std::string &session_server, 
+							 const std::string &relay_server,
                const unsigned short port,
                const std::string &myName,
                const std::string &remoteName);
