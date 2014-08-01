@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
     talk_base::LogMessage::LogThreads();
 
     if ( argc < 4) {
-        std::cout << "usage: IceProbe server local_name  remote_name  [logfile, default is pplog.txt]" << std::endl;
+        std::cout << "usage: neble server local_name  remote_name  [logfile, default is pplog.txt]" << std::endl;
     }
     
     IceProber *pProber ;

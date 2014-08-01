@@ -17,7 +17,7 @@ APP_OBJS = ${APP_SRCS:%.cc=$(OBJS_DIR)/%.o}
 
 LIB = $(OBJS_DIR)/libjingle.a
 
-TARGET = probeICE
+TARGET = neble
 RELAYSERVER_APP = relayserver 
 STUNSERVER_APP = stunserver
 
