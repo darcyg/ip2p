@@ -10,37 +10,42 @@ LDFLAGS = -lexpat -lssl -lcrypto -lpthread -lrt
 
 LIB_SRCS =
 include $(MAKE_DIR)/libjingle_build.mk
-#LIB_OBJS = ${LIB_SRCS:.cc=.o}
-LIB_OBJS = ${LIB_SRCS:%.cc=$(OBJS_DIR)/%.o}
 
+LIB_OBJS = ${LIB_SRCS:%.cc=$(OBJS_DIR)/%.o}
+LIB = $(OBJS_DIR)/libjingle.a
 
 APP_SRCS =
 include $(MAKE_DIR)/app_build.mk
 
-
-RELAYCLIENT_SRCS = src/peer/relayclient.cc
-RELAYCLIENT_OBJS = ${RELAYCLIENT_SRCS:%.cc=$(OBJS_DIR)/%.o}
-
-#APP_OBJS = ${APP_SRCS:.cpp=.o}
 APP_OBJS = ${APP_SRCS:%.cc=$(OBJS_DIR)/%.o}
-
-LIB = $(OBJS_DIR)/libjingle.a
 TARGET = neble
+
+RELAYSERVER_SRCS += src/relayserver/relayserver.cc\
+		   src/relayserver/relayserer_main.cc			   
+RELAYSERVER_OBJS = ${RELAYSERVER_SRCS:%.cc=$(OBJS_DIR)/%.o}	
+RELAYSERVER = $(OBJS_DIR)/relayserver.a
 RELAYSERVER_APP = relayserver 
-STUNSERVER_APP = stunserver
+
+RELAYCLIENT_SRCS += src/peer/relayclient.cc
+RELAYCLIENT_OBJS = ${RELAYCLIENT_SRCS:%.cc=$(OBJS_DIR)/%.o}
+RELAYCLIENT = $(OBJS_DIR)/relayclient.a
 RELAYCLIENT_APP = relayclient
 
-all: $(TARGET) $(RELAYSERVER_APP) $(STUNSERVER_APP) $(RELAYCLIENT_APP)
 
-$(OBJS_DIR)/%.o : %.c
+STUNSERVER_APP = stunserver
+
+
+all: $(TARGET) 
+
+$(OBJS_DIR)/%.o: %.c
 	@mkdir -p $(@D)
 	$(CC) $(CFLAGS) -c -o $@ $<
 
-$(OBJS_DIR)/%.o : %.cc
+$(OBJS_DIR)/%.o: %.cc
 	@mkdir -p $(@D)
 	$(CC) $(CFLAGS) -c -o $@ $<
 
-$(OBJS_DIR)/%.o : %.cpp
+$(OBJS_DIR)/%.o: %.cpp
 	@mkdir -p $(@D)
 	$(CC) $(CFLAGS) -c -o $@ $<
 
@@ -50,14 +55,23 @@ $(LIB): $(LIB_OBJS)
 $(TARGET): $(LIB) $(APP_OBJS)
 	$(CC) -o $@ $(APP_OBJS) $(LIB) $(LDFLAGS)
 	
-$(RELAYSERVER_APP): $(LIB)
-	$(CC) -o $@ $(OBJS_DIR)/deps/libjingle/talk/p2p/base/relayserver_main.o $(LIB) $(LDFLAGS)
-
+	
+$(RELAYSERVER): $(RELAYSERVER_OBJS)
+	$(AR) -cr $@ $(RELAYSERVER_OBJS)
+	
+$(RELAYSERVER_APP): $(LIB) $(RELAYSERVER)
+	$(CC) -o $@ $(RELAYSERVER) $(LIB) $(LDFLAGS)
+	
+$(RELAYCLIENT): $(RELAYCLIENT_OBJS)	
+	$(AR) -cr $@ $(RELAYSERVER_OBJS)
+	
+$(RELAYCLIENT_APP): $(LIB) $(RELAYCLIENT)
+	$(CC) -o $@ $(RELAYCLIENT) $(LIB) $(LDFLAGS)
+	
 $(STUNSERVER_APP): $(LIB)
 	$(CC) -o $@ $(OBJS_DIR)/deps/libjingle/talk/p2p/base/stunserver_main.o $(LIB) $(LDFLAGS)
 
-$(RELAYCLIENT_APP): $(LIB) $(RELAYCLIENT_OBJS)
-	$(CC) -o $@ $(RELAYCLIENT_OBJS) $(LIB) $(LDFLAGS)
+
 .PHONY: clean all
 
 clean:

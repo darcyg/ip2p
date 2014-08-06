@@ -1,5 +1,5 @@
 LIB_SRCS += \
-    deps/libjingle/talk/base/asyncfile.cc\
+	deps/libjingle/talk/base/asyncfile.cc\
 	deps/libjingle/talk/base/asynchttprequest.cc\
 	deps/libjingle/talk/base/asyncsocket.cc\
 	deps/libjingle/talk/base/asynctcpsocket.cc\
