@@ -16,6 +16,11 @@ LIB_OBJS = ${LIB_SRCS:%.cc=$(OBJS_DIR)/%.o}
 
 APP_SRCS =
 include $(MAKE_DIR)/app_build.mk
+
+
+RELAYCLIENT_SRCS = src/peer/relayclient.cc
+RELAYCLIENT_OBJS = ${RELAYCLIENT_SRCS:%.cc=$(OBJS_DIR)/%.o}
+
 #APP_OBJS = ${APP_SRCS:.cpp=.o}
 APP_OBJS = ${APP_SRCS:%.cc=$(OBJS_DIR)/%.o}
 
@@ -23,8 +28,9 @@ LIB = $(OBJS_DIR)/libjingle.a
 TARGET = neble
 RELAYSERVER_APP = relayserver 
 STUNSERVER_APP = stunserver
+RELAYCLIENT_APP = relayclient
 
-all: $(TARGET) $(RELAYSERVER_APP) $(STUNSERVER_APP)
+all: $(TARGET) $(RELAYSERVER_APP) $(STUNSERVER_APP) $(RELAYCLIENT_APP)
 
 $(OBJS_DIR)/%.o : %.c
 	@mkdir -p $(@D)
@@ -50,6 +56,8 @@ $(RELAYSERVER_APP): $(LIB)
 $(STUNSERVER_APP): $(LIB)
 	$(CC) -o $@ $(OBJS_DIR)/deps/libjingle/talk/p2p/base/stunserver_main.o $(LIB) $(LDFLAGS)
 
+$(RELAYCLIENT_APP): $(LIB) $(RELAYCLIENT_OBJS)
+	$(CC) -o $@ $(RELAYCLIENT_OBJS) $(LIB) $(LDFLAGS)
 .PHONY: clean all
 
 clean:
