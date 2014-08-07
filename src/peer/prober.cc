@@ -58,17 +58,21 @@ IceProber::~IceProber() {
 
 void IceProber::Login(const std::string &session_server,
 											const std::string &relay_server, 
-											const unsigned short port,
 											const std::string& myName,
 											const std::string& remoteName) {
     my_name_ = myName;
     remote_name_ = remoteName;
 
     network_manager_ = new talk_base::BasicNetworkManager();
+		talk_base::SocketAddress session_addr("112.124.37.110", 1979);
+		if (!session_server.empty())
+			session_addr.FromString(session_server);
     //talk_base::SocketAddress address_stun("stun.l.google.com", 19302);
     talk_base::SocketAddress address_stun("stunserver.org", 3478);
-    talk_base::SocketAddress address_relay_udp(relay_server, 15032);
+    talk_base::SocketAddress address_relay_udp("112.124.37.110", 5000);
     talk_base::SocketAddress address_nil;
+		if (!relay_server.empty())
+			address_relay_udp.FromString(relay_server);
     port_allocator_ = 
         new cricket::BasicPortAllocator(network_manager_,
                                         address_stun,            //stun
@@ -77,7 +81,7 @@ void IceProber::Login(const std::string &session_server,
                                         address_nil);           //relay:ssl
     port_allocator_->set_flags(cricket::PORTALLOCATOR_ENABLE_BUNDLE);
 
-    peer_ =  new Peer(session_server, 1979, my_name_, signal_thread_);
+    peer_ =  new Peer(session_addr, my_name_, signal_thread_);
     peer_->SignalOnline.connect(this, &IceProber::onOnLine);
     peer_->SignalOffline.connect(this, &IceProber::onOffline);
     peer_->SignalRemoteLogin.connect(this, &IceProber::onRemoteLogin);

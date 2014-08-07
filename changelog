@@ -1,3 +1,6 @@
 
-
 probeICE v0.0.1
+this project now can support nat tranversal used for p2p connection establishment at multiplatform, we rename this project to neble.
+feature:
+* support to use make to compile the libjingle rather than google's swtoolkit.
+* use node.js app as session server.

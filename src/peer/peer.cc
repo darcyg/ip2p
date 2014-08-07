@@ -1,12 +1,16 @@
+#include "peer.h"
+
 #include <iostream>
+
 #include "talk/base/socketstream.h"
 #include "talk/base/asyncsocket.h"
 
-#include "peer.h"
 
-Peer::Peer(const std::string &server, const unsigned short port, const std::string &id, talk_base::Thread *worker_thread) {
-    server_address_ = server;
-    server_port_ = port;
+
+
+Peer::Peer(const talk_base::SocketAddress& server_addr, const std::string &id, talk_base::Thread *worker_thread) {
+    server_address_ = server_addr.IPAsString();
+    server_port_ = server_addr.port();
     id_ = id;
     isOnline_ = true;
     sock_ = NULL;

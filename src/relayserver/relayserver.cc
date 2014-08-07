@@ -31,6 +31,7 @@
 #include <errno.h>
 #endif  // POSIX
 
+#include <iostream>
 #include <algorithm>
 
 #include "talk/base/asynctcpsocket.h"
@@ -195,6 +196,7 @@ void RelayServer::OnReadEvent(talk_base::AsyncSocket* socket) {
 void RelayServer::OnInternalPacket(
     talk_base::AsyncPacketSocket* socket, const char* bytes, size_t size,
     const talk_base::SocketAddress& remote_addr) {
+  std::cout << "OnInternalPacket signals." << std::endl;
 
   // Get the address of the connection we just received on.
   talk_base::SocketAddressPair ap(remote_addr, socket->GetLocalAddress());
@@ -239,7 +241,7 @@ void RelayServer::OnInternalPacket(
 void RelayServer::OnExternalPacket(
     talk_base::AsyncPacketSocket* socket, const char* bytes, size_t size,
     const talk_base::SocketAddress& remote_addr) {
-
+  std::cout << "OnExternalPacket signals." << std::endl;
   // Get the address of the connection we just received on.
   talk_base::SocketAddressPair ap(remote_addr, socket->GetLocalAddress());
   ASSERT(!ap.destination().IsAny());

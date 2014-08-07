@@ -45,7 +45,7 @@ void RelayClient::OnReceive(
 		const char* bytes, 
 		size_t size,
     const talk_base::SocketAddress& remote_addr) {
-	cout << "receive %d bytes data!" << size << endl;	
+	cout << "receive " << size <<" bytes data!"<< endl;	
 	
 }
 int main(int argc, char *argv[]) {

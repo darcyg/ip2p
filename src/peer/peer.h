@@ -6,6 +6,7 @@
 
 #include "talk/base/thread.h"
 #include "talk/base/messagequeue.h"
+#include "talk/base/socketaddress.h"
 
 namespace talk_base{
     class AsyncSocket;
@@ -13,7 +14,7 @@ namespace talk_base{
 
 class Peer : public sigslot::has_slots<>, public talk_base::MessageHandler {  
 public:
-    Peer(const std::string &server, const unsigned short port, const std::string &id, talk_base::Thread *worker_thread);
+    Peer(const talk_base::SocketAddress& server_addr, const std::string &id, talk_base::Thread *worker_thread);
     ~Peer(); 
     
     virtual void OnMessage(talk_base::Message *msg);

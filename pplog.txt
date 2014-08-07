@@ -1,0 +1,600 @@
+____________________________________________________
+Update:Thu Aug  7 18:42:46 2014	2953860750
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:46 2014	2953860750
+Event:PortReady
+Channel[prober|__]
+--------Connections----------------
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:46 2014	2953860867
+Event:Candidate
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:1	pruned:0
+		last_ping_sent:0	last_ping_recvied:0	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:46 2014	2953861082
+Event:PortReady
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953861058	last_ping_recvied:2953861058	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:1	pruned:0
+		last_ping_sent:0	last_ping_recvied:0	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:47 2014	2953861219
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953861155	last_ping_recvied:2953861155	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953861204	last_ping_recvied:2953861204	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:47 2014	2953861337
+Event:Candidate
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953861254	last_ping_recvied:2953861254	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953861302	last_ping_recvied:2953861302	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:1	pruned:0
+		last_ping_sent:0	last_ping_recvied:0	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:1	pruned:0
+		last_ping_sent:0	last_ping_recvied:0	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:47 2014	2953861719
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953861641	last_ping_recvied:2953861641	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953861689	last_ping_recvied:2953861689	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953861545	last_ping_recvied:2953861545	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953861593	last_ping_recvied:2953861593	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:48 2014	2953862219
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862031	last_ping_recvied:2953862031	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862080	last_ping_recvied:2953862080	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862128	last_ping_recvied:2953862128	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862176	last_ping_recvied:2953862176	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:48 2014	2953862719
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862613	last_ping_recvied:2953862613	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862661	last_ping_recvied:2953862661	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862709	last_ping_recvied:2953862709	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862565	last_ping_recvied:2953862565	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:48 2014	2953862868
+Event:PortReady
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862806	last_ping_recvied:2953862806	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862855	last_ping_recvied:2953862855	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862709	last_ping_recvied:2953862709	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862757	last_ping_recvied:2953862757	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:48 2014	2953862892
+Event:Candidate
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862806	last_ping_recvied:2953862806	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862855	last_ping_recvied:2953862855	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862709	last_ping_recvied:2953862709	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953862757	last_ping_recvied:2953862757	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+4.	best:0	writable:0	readabel:0	timeout:0	new_connection:1	pruned:0
+		last_ping_sent:0	last_ping_recvied:0	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:tcp:p2p1:192.168.1.213:44611:EGDxnwKQu1vDveqv:QQbIBDpoK2peHhBI]
+	Remote:Cand[prober:local:tcp:eth0:192.168.1.100:39413:veqvQQbIBDpoK2pe:HhBIxsNkeeBjMYQ/]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:49 2014	2953863219
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953863194	last_ping_recvied:2953863194	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953863049	last_ping_recvied:2953863049	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953863097	last_ping_recvied:2953863097	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953863145	last_ping_recvied:2953863145	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+4.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:0	last_ping_recvied:0	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:tcp:p2p1:192.168.1.213:44611:EGDxnwKQu1vDveqv:QQbIBDpoK2peHhBI]
+	Remote:Cand[prober:local:tcp:eth0:192.168.1.100:39413:veqvQQbIBDpoK2pe:HhBIxsNkeeBjMYQ/]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:49 2014	2953863720
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953863581	last_ping_recvied:2953863581	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953863631	last_ping_recvied:2953863631	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953863679	last_ping_recvied:2953863679	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953863533	last_ping_recvied:2953863533	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+4.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:0	last_ping_recvied:0	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:tcp:p2p1:192.168.1.213:44611:EGDxnwKQu1vDveqv:QQbIBDpoK2peHhBI]
+	Remote:Cand[prober:local:tcp:eth0:192.168.1.100:39413:veqvQQbIBDpoK2pe:HhBIxsNkeeBjMYQ/]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:49 2014	2953863920
+Event:ConnectionStateChanged
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953863775	last_ping_recvied:2953863775	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953863823	last_ping_recvied:2953863823	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953863872	last_ping_recvied:2953863872	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953863727	last_ping_recvied:2953863727	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+4.	best:0	writable:0	readabel:0	timeout:1	new_connection:0	pruned:0
+		last_ping_sent:0	last_ping_recvied:0	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:tcp:p2p1:192.168.1.213:44611:EGDxnwKQu1vDveqv:QQbIBDpoK2peHhBI]
+	Remote:Cand[prober:local:tcp:eth0:192.168.1.100:39413:veqvQQbIBDpoK2pe:HhBIxsNkeeBjMYQ/]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:50 2014	2953864220
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953864162	last_ping_recvied:2953864162	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953864210	last_ping_recvied:2953864210	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953864066	last_ping_recvied:2953864066	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953864114	last_ping_recvied:2953864114	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:50 2014	2953864720
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953864552	last_ping_recvied:2953864552	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953864600	last_ping_recvied:2953864600	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953864649	last_ping_recvied:2953864649	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953864699	last_ping_recvied:2953864699	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:51 2014	2953865221
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953865135	last_ping_recvied:2953865135	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953865183	last_ping_recvied:2953865183	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953865038	last_ping_recvied:2953865038	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953865086	last_ping_recvied:2953865086	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:51 2014	2953865722
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953865713	last_ping_recvied:2953865713	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953865568	last_ping_recvied:2953865568	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953865616	last_ping_recvied:2953865616	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953865665	last_ping_recvied:2953865665	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:52 2014	2953866223
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953866099	last_ping_recvied:2953866099	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953866147	last_ping_recvied:2953866147	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953866196	last_ping_recvied:2953866196	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953866051	last_ping_recvied:2953866051	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:52 2014	2953866724
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953866682	last_ping_recvied:2953866682	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953866537	last_ping_recvied:2953866537	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953866585	last_ping_recvied:2953866585	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953866633	last_ping_recvied:2953866633	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:53 2014	2953867225
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953867069	last_ping_recvied:2953867069	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953867117	last_ping_recvied:2953867117	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953867165	last_ping_recvied:2953867165	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953867214	last_ping_recvied:2953867214	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:53 2014	2953867726
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953867650	last_ping_recvied:2953867650	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953867699	last_ping_recvied:2953867699	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953867553	last_ping_recvied:2953867553	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953867601	last_ping_recvied:2953867601	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:54 2014	2953868227
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953868038	last_ping_recvied:2953868038	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953868086	last_ping_recvied:2953868086	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953868134	last_ping_recvied:2953868134	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953868182	last_ping_recvied:2953868182	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:54 2014	2953868727
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953868620	last_ping_recvied:2953868620	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953868670	last_ping_recvied:2953868670	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953868718	last_ping_recvied:2953868718	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953868571	last_ping_recvied:2953868571	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:55 2014	2953869227
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953869204	last_ping_recvied:2953869204	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953869059	last_ping_recvied:2953869059	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953869107	last_ping_recvied:2953869107	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953869155	last_ping_recvied:2953869155	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:55 2014	2953869728
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953869593	last_ping_recvied:2953869593	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953869641	last_ping_recvied:2953869641	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953869691	last_ping_recvied:2953869691	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953869544	last_ping_recvied:2953869544	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:56 2014	2953870228
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953870174	last_ping_recvied:2953870174	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953870222	last_ping_recvied:2953870222	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953870078	last_ping_recvied:2953870078	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953870126	last_ping_recvied:2953870126	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
+____________________________________________________
+Update:Thu Aug  7 18:42:56 2014	2953870729
+Event:Poll
+Channel[prober|__]
+--------Connections----------------
+0.	best:1	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953870559	last_ping_recvied:2953870559	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+1.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953870608	last_ping_recvied:2953870608	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:local:udp:eth0:192.168.1.100:42621:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+2.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953870657	last_ping_recvied:2953870657	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:local:udp:p2p1:192.168.1.213:44213:zSNID7LmfDa9J4lf:dUL8W1F7TNJKcbuy]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+3.	best:0	writable:0	readabel:0	timeout:0	new_connection:0	pruned:0
+		last_ping_sent:2953870705	last_ping_recvied:2953870705	rtt:3000	sent:0	recv:0
+	Local:Cand[prober:stun:udp:p2p1:183.54.6.239:18177:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+	Remote:Cand[prober:stun:udp:eth0:113.57.189.246:2826:2iRdhLfawKZC5ydJ:sA+FZVpAyqJMT/nW]
+
+
