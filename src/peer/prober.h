@@ -24,7 +24,7 @@ class Peer;
 
 class IceProber : public sigslot::has_slots<>, public talk_base::MessageHandler {  
 public:
-    IceProber(const std::string& fname="pplog.txt");
+    IceProber(const std::string& fname="monitor.log");
     ~IceProber();
     
     virtual void OnMessage(talk_base::Message *msg);
