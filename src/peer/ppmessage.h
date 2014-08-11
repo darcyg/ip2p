@@ -17,12 +17,12 @@ class Candidate;
 }
 
 enum {
-    PPMSG_SESSION_INITIATE,
-    PPMSG_SESSION_ACCEPT,
-    PPMSG_SESSION_REJECT,
-    PPMSG_SESSION_TERMINATE,
-    PPMSG_SESSION_INFO,
-    PPMSG_TRANSPORT_INFO,
+  PPMSG_SESSION_INITIATE,
+  PPMSG_SESSION_ACCEPT,
+  PPMSG_SESSION_REJECT,
+  PPMSG_SESSION_TERMINATE,
+  PPMSG_SESSION_INFO,
+  PPMSG_TRANSPORT_INFO,
 };
 
 const std::string PP_STR_INITIATE("pp_initiate");
@@ -30,21 +30,21 @@ const std::string PP_STR_ACCEPT("pp_accept");
 const std::string PP_STR_TRANSPORT("pp_transport");
 
 class PPMessage {
-public:
-    PPMessage() {
-        argvs.clear();
-        id = 0;
-    }
-    ~PPMessage() {
-    }
-    unsigned int id;
-    unsigned int type;
-    std::vector<std::string> argvs; 
+ public:
+  PPMessage() {
+      argvs.clear();
+      id = 0;
+  }
+  ~PPMessage() {
+  }
+  unsigned int id;
+  unsigned int type;
+  std::vector<std::string> argvs; 
 };
 
 struct P2PInfo {
-    std::string content_name;
-    std::vector<cricket::Candidate >  candidates_;
+  std::string content_name;
+  std::vector<cricket::Candidate >  candidates_;
 };
 
 #endif
