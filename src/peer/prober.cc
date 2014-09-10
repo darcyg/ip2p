@@ -4,7 +4,7 @@
 #include <fstream>
 #include <time.h>
 
-#include "talk/p2p/client/basicportallocator.h"
+#include "talk/p2p/client/httpportallocator.h"
 #include "talk/p2p/base/p2ptransportchannel.h"
 #include "talk/p2p/client/socketmonitor.h"
 #include "talk/base/network.h"
@@ -76,7 +76,7 @@ void IceProber::Login(const std::string &session_server,
   if (!relay_server.empty())
     address_relay_udp.FromString(relay_server);
   port_allocator_ = 
-    new cricket::BasicPortAllocator(network_manager_,
+    new cricket::HttpPortAllocator(network_manager_,
                                     address_stun,            //stun
                                     address_relay_udp,       //relay:udp
                                     address_nil,             //relay:tcp
