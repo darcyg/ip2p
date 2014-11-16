@@ -1,3 +1,9 @@
+neble.udb
+neble
+.DS_Store
+build
+
+
 # Compiled Object files
 *.slo
 *.lo
