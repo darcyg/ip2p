@@ -20,7 +20,7 @@ LIB = $(OBJS_DIR)/libjingle.a
 APP_SRCS =
 include $(MAKE_DIR)/app_build.mk
 APP_OBJS = ${APP_SRCS:%.cc=$(OBJS_DIR)/%.o}
-TARGET = neble
+TARGET = ip2p
 
 RELAYSERVER_SRCS += src/relayserver/relayserver_main.cc \
 		    src/relayserver/relayserver.cc
